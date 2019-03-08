@@ -6,3 +6,19 @@ body {
   background-color: rgb(20,23,34);
   color: rgb(44,254,213);
 }
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  width: 100vw;
+  text-align: center;
+}
+
+h3 {
+  width: 100vw;
+  text-align: center;
+}
