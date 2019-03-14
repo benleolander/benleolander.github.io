@@ -17,6 +17,10 @@ h3 {
   text-align: center;
 }
 
+i {
+  font-size: 2em;
+}
+
 main {
   width: 70vw;
   margin: 0 auto;
