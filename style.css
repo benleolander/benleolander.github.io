@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   font-family: 'Varela Round', sans-serif;
 }
 
@@ -13,7 +14,7 @@ h1 {
 }
 
 h3 {
-  width: inherit;
+  /* width: inherit; */
   text-align: center;
 }
 
@@ -21,8 +22,24 @@ i {
   font-size: 2em;
 }
 
+p {
+  color: #ccc;
+}
+
 main {
   width: 70vw;
   margin: 0 auto;
   text-align: center;
+}
+
+.project {
+  display: flex;
+}
+
+.projectimage {
+  width: 50%;
+}
+
+.projectcontent {
+  width: 50%;
 }
