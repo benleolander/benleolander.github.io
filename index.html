@@ -5,6 +5,7 @@
     <title>Ben Lander | Web Developer</title>
     <script src="app.js" charset="utf-8"></script>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
@@ -12,50 +13,55 @@
 
     <header>
       <h1>Ben Lander</h1>
-      <h3>Full-Stack Web Developer</h3>
+      <h2>Full-Stack Web Developer</h2>
+      <div class="cta-icons">
+        <i class="fab fa-github-square"></i>
+        <i class="far fa-envelope"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+
+      <a href="#main"><i class="fas fa-angle-down down-chevron"></i></a>
     </header>
 
-    <main>
+    <main id="main">
+      <div class="about-container">
+        <div class="about-bio">
+          <p>
+            I have always had a passion for computers & technology, whether building or fixing them. I was first introduced to coding while working alongside the development teams at Apple, and it immediately grabbed my attention. While I enjoyed the problem solving and technical learning aspects of my previous roles, I wanted to take these skills further, leading me to enrol in the Web Development Immersive course at General Assembly.
+          </p>
 
-      <div>
-        <p>
-          I have always had a passion for computers & technology, whether building or fixing them. I was first introduced to coding while working alongside the development teams at Apple, and it immediately grabbed my attention. While I enjoyed the problem solving and technical learning aspects of my previous roles, I wanted to take these skills further, leading me to enrol in the Web Development Immersive course at General Assembly.
-        </p>
+          <p>
+            I am looking to join a company where I can be part of a collaborative team and continue my learning, while contributing to my team’s progress in a meaningful way.
+          </p>
+        </div>
 
-        <p>
-          I am looking to join a company where I can be part of a collaborative team and continue my learning, while contributing to my team’s progress in a meaningful way.
-        </p>
+        <div class="about-technologies">
+          <h2>Technologies</h2>
+          <div class="technologies-icons">
+            <i class="devicon-html5-plain"></i>
+            <i class="devicon-css3-plain"></i>
+            <i class="devicon-javascript-plain"></i>
+            <i class="devicon-react-original"></i>
+            <i class="devicon-sass-original"></i>
+
+            <i class="devicon-jquery-plain"></i>
+            <i class="devicon-python-plain"></i>
+            <i class="devicon-git-plain"></i>
+            <i class="devicon-heroku-plain"></i>
+
+            <i class="devicon-mongodb-plain"></i>
+            <i class="devicon-postgresql-plain"></i>
+            <i class="devicon-webpack-plain"></i>
+            <i class="devicon-nodejs-plain"></i>
+          </div>
+        </div>
       </div>
-
-      <hr />
-
       <div>
-        <h3>Technologies</h3>
-        <i class="devicon-html5-plain"></i>
-        <i class="devicon-css3-plain"></i>
-        <i class="devicon-javascript-plain"></i>
-        <i class="devicon-react-original"></i>
-        <i class="devicon-sass-original"></i>
+        <h2>Work</h2>
 
-        <i class="devicon-jquery-plain"></i>
-        <i class="devicon-python-plain"></i>
-        <i class="devicon-git-plain"></i>
-        <i class="devicon-heroku-plain"></i>
+        <section class="project">
 
-        <i class="devicon-mongodb-plain"></i>
-        <i class="devicon-postgresql-plain"></i>
-        <i class="devicon-webpack-plain"></i>
-        <i class="devicon-nodejs-plain"></i>
-      </div>
-
-      <hr />
-
-      <div>
-        <h3>Work</h3>
-
-        <div class="project">
-
-          <div class="projectcontent">
+          <div class="project-content has-text-left">
             <h3>Whiskypedia</h3>
             <p>
               Whiskypedia is a full-stack app designed to allow whisky enthusiasts to keep track of whiskies they have tried, distilleries they have visited, and receive recommendations of whiskies they may like.
@@ -68,18 +74,18 @@
             </p>
           </div>
 
-          <div class="projectimage">
+          <div class="project-image">
             <img src="/" alt="Whiskypedia Screenshot">
           </div>
 
-        </div>
+        </section>
 
-        <div class="project">
-          <div class="projectimage">
+        <section class="project">
+          <div class="project-image">
             <img src="/" alt="Brain Training Screenshot">
           </div>
 
-          <div class="projectcontent">
+          <div class="project-content has-text-right">
             <h3>Brain Training</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -91,10 +97,10 @@
               Full details can be found in the Readme in GitHub.
             </p>
           </div>
-        </div>
+        </section>
 
-        <div class="project">
-          <div class="projectcontent">
+        <section class="project">
+          <div class="project-content has-text-left">
             <h3>Brain Training</h3>
             <p>
               This project was a hackathon designed to cement knowledge of React and external APIs. Working as a pair, we created a pub quiz style trivia game using the Open Trivia Database API.
@@ -107,18 +113,18 @@
             </p>
           </div>
 
-          <div class="projectimage">
+          <div class="project-image">
             <img src="/" alt="Space Invaders Screenshot">
           </div>
-        </div>
+        </section>
 
-        <div class="project">
+        <section class="project">
 
-          <div class="projectimage">
+          <div class="project-image">
             <img src="/" alt="Space Invaders Screenshot">
           </div>
 
-          <div class="projectcontent">
+          <div class="project-content has-text-right">
             <h3>Space Invaders</h3>
             <p>
               A front end game, written with JavaScript & jQuery. The brief was to create a grid-based game in a time frame of seven days. I chose to recreate the arcade classic Space Invaders for this project.
@@ -132,7 +138,7 @@
           </div>
         </div>
 
-      </div>
+      </section>
 
     </main>
 
