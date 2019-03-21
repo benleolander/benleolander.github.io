@@ -83,7 +83,10 @@ main {
 
 .project-image {
   width: 50%;
-  background-size:
+}
+
+img {
+  max-width: 100%;
 }
 
 .project-content {
