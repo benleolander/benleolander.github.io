@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -19,6 +20,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: 1.1rem;
 }
 
 .cta-icons {
@@ -28,6 +30,11 @@ header {
 
 .cta-icons i {
   margin: 1em 10px;
+}
+
+.cta-icons i:hover{
+  transform: scale(1.2);
+  color: hsla(168,99%,58%,0.7);
 }
 
 
@@ -42,7 +49,7 @@ i {
 
 .down-chevron:hover {
   transform: scale(1.35);
-  color: hsl(168,99%,35%);
+  color: hsla(168,99%,58%,0.7);
 }
 
 p {
@@ -83,6 +90,7 @@ main {
 
 .project-image {
   width: 50%;
+  align-items: center;
 }
 
 img {
