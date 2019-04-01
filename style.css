@@ -101,11 +101,16 @@ main {
   justify-content: space-around;
 }
 
-a.go-further-button {
-  color: hsl(227, 26%, 11%);
+.go-further-button {
   padding: 2px 5px;
+  border: 1px solid hsl(168,99%,58%);
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+.go-further-button:hover {
   background-color: hsl(168,99%,58%);
-  border-radius: 5px;
+  color: hsl(227, 26%, 11%);
 }
 
 img {
