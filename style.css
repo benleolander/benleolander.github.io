@@ -5,6 +5,7 @@
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 body {
@@ -102,7 +103,7 @@ main {
 }
 
 .go-further-button {
-  padding: 2px 5px;
+  padding: 3px 10px;
   border: 1px solid hsl(168,99%,58%);
   border-radius: 10px;
   transition: all 0.2s linear;
