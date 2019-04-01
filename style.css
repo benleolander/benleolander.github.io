@@ -34,12 +34,6 @@ header {
   transition: all 0.2s linear;
 }
 
-.cta-icons i:hover{
-  transform: scale(1.2);
-  color: hsla(168,99%,58%,0.7);
-}
-
-
 i {
   font-size: 2rem;
 }
@@ -47,11 +41,6 @@ i {
 .down-chevron {
   margin-top: 150px;
   font-size: 3rem;
-}
-
-.down-chevron:hover {
-  transform: scale(1.35);
-  color: hsla(168,99%,58%,0.7);
 }
 
 p {
@@ -110,11 +99,6 @@ main {
   transition: all 0.2s linear;
 }
 
-.go-further-button:hover {
-  background-color: hsl(168,99%,58%);
-  color: hsl(227, 26%, 11%);
-}
-
 img {
   max-width: 100%;
   max-height: 330px;
@@ -130,4 +114,21 @@ img {
 
 .has-text-right {
   text-align: right;
+}
+
+@media (hover: hover) {
+  .cta-icons i:hover{
+    transform: scale(1.2);
+    color: hsla(168,99%,58%,0.7);
+  }
+
+  .down-chevron:hover {
+    transform: scale(1.35);
+    color: hsla(168,99%,58%,0.7);
+  }
+
+  .go-further-button:hover {
+    background-color: hsl(168,99%,58%);
+    color: hsl(227, 26%, 11%);
+  }
 }
