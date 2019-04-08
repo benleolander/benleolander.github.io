@@ -75,21 +75,26 @@ main {
   justify-content: center;
 }
 
-.technologies-icons div {
+/* .technologies-icons div {
   margin: 10px;
-}
+} */
 
 .technologies-icons div * {
+  margin: 0 7px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  transition: all 0.2s linear
 }
 
 .technologies-icons div .technologies-icons-caption {
-  /* display: none; */
+  opacity: 0;
   color: #ccc;
   font-size: 0.8rem;
   text-align: center;
+  margin-top: -38px;
+  transition: all 0.2s linear
 }
 
 .project {
@@ -148,6 +153,14 @@ img {
   .down-chevron:hover {
     transform: scale(1.35);
     color: hsla(168,99%,58%,0.7);
+  }
+
+  .technologies-icons div:hover i {
+    opacity: 0.2;
+  }
+
+  .technologies-icons div:hover .technologies-icons-caption {
+    opacity: 1;
   }
 
   .go-further-button:hover {
