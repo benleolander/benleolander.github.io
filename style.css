@@ -68,7 +68,7 @@ main {
 
 .technologies-icons {
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
   line-height: 3rem;
   display: flex;
   flex-wrap: wrap;
@@ -76,7 +76,16 @@ main {
 }
 
 .technologies-icons div {
-  margin: 0 10px;
+  margin: 10px;
+}
+
+.technologies-icons div * {
+  display: block;
+}
+
+.technologies-icons div .technologies-icons-caption {
+  display: none;
+  color: #ccc;
 }
 
 .project {
@@ -118,6 +127,12 @@ img {
 
 .has-text-right {
   text-align: right;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
 }
 
 @media (hover: hover) {
