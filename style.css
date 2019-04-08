@@ -41,6 +41,7 @@ i {
 .down-chevron {
   margin-top: 150px;
   font-size: 3rem;
+  transition: all 0.2s linear;
 }
 
 p {
