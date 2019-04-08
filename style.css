@@ -80,12 +80,16 @@ main {
 }
 
 .technologies-icons div * {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .technologies-icons div .technologies-icons-caption {
-  display: none;
+  /* display: none; */
   color: #ccc;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .project {
