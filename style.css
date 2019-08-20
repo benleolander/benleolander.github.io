@@ -130,6 +130,15 @@ img {
   width: 50%;
 }
 
+.project-content p a {
+  text-decoration: underline;
+  transition: all 0.2s linear;
+}
+
+.project-content p a:hover {
+  color: hsl(168,99%,58%);
+}
+
 .has-text-left {
   text-align: left;
 }
