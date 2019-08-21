@@ -26,6 +26,11 @@ header {
 
 footer a {
   color: hsl(168,99%,58%);
+  transition: all 0.2s linear;
+}
+
+footer a:hover {
+color: hsl(168,99%,33%);
 }
 
 .cta-icons {
@@ -137,7 +142,7 @@ img {
 }
 
 .project-content p a:hover {
-  color: hsl(168,99%,58%);
+  color: hsl(168,99%,33%);
 }
 
 .has-text-left {
