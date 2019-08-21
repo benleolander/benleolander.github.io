@@ -147,6 +147,10 @@ img {
   text-align: right;
 }
 
+.copyright-tag {
+  opacity: 50;
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
 	html {
 		scroll-behavior: auto;
