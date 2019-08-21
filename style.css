@@ -24,6 +24,10 @@ header {
   font-size: 1.1rem;
 }
 
+footer a {
+  color: hsl(168,99%,58%);
+}
+
 .cta-icons {
   display: flex;
   justify-content: center;
@@ -74,10 +78,6 @@ main {
   flex-wrap: wrap;
   justify-content: center;
 }
-
-/* .technologies-icons div {
-  margin: 10px;
-} */
 
 .technologies-icons div * {
   margin: 0 7px;
@@ -148,7 +148,7 @@ img {
 }
 
 .copyright-tag {
-  opacity: 50;
+  opacity: 0.5;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
