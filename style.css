@@ -189,6 +189,23 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
+
+  main {
+    width: 95vw;
+  }
+
+  .about-container {
+    display: block;
+  }
+
+  .about-bio {
+    width: 95%;
+  }
+
+  .about-technologies {
+    width: 95%;
+  }
+
   .project {
     display: block;
     padding-bottom: 2rem;
