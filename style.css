@@ -187,3 +187,30 @@ img {
     color: hsl(227, 26%, 11%);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .project {
+    display: block;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2rem;
+  }
+
+  .project-content {
+    width: 95%;
+    text-align: center;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
+  .go-further-links {
+    display: block;
+  }
+
+  .go-further-button {
+    display: block;
+    margin: 1rem;
+  }
+}
