@@ -24,6 +24,11 @@ header {
   font-size: 1.1rem;
 }
 
+footer {
+  margin-top: 3rem;
+  /* border-top: 1px solid #ccc; */
+}
+
 footer a {
   color: hsl(168,99%,58%);
   transition: all 0.2s linear;
