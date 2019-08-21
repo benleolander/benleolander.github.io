@@ -131,7 +131,8 @@ img {
 }
 
 .project-content p a {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  color: hsl(168,99%,58%);
   transition: all 0.2s linear;
 }
 
