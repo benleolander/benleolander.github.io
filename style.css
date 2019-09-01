@@ -9,7 +9,8 @@ a {
 }
 
 body {
-  font-family: 'Varela Round', sans-serif;
+  /* font-family: 'Varela Round', sans-serif; */
+  font-family: 'Roboto Mono', monospace;
   background-color: hsl(227, 26%, 11%);
   color: hsl(168,99%,58%);
   text-align: center;
@@ -26,7 +27,6 @@ header {
 
 footer {
   margin-top: 3rem;
-  /* border-top: 1px solid #ccc; */
 }
 
 footer a {
@@ -59,6 +59,7 @@ i {
 }
 
 p {
+  font-family: 'Varela Round', sans-serif;
   color: #ccc;
 }
 
