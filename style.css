@@ -60,6 +60,7 @@ i {
   font-size: 2rem;
 }
 
+
 .down-chevron {
   margin-top: 150px;
   font-size: 3rem;
@@ -170,6 +171,14 @@ img {
 
 .copyright-tag {
   opacity: 0.5;
+}
+
+.copyright-tag a {
+  color: inherit;
+}
+
+.copyright-tag i {
+  font-size: 1rem;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
