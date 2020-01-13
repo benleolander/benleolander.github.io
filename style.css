@@ -16,6 +16,15 @@ body {
   line-height: 1.4;
 }
 
+body a {
+  color: hsl(168,99%,58%);
+  transition: all 0.2s linear;
+}
+
+body a:hover {
+color: hsl(168,99%,33%);
+}
+
 header {
   height: 100vh;
   display: flex;
