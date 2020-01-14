@@ -8,11 +8,16 @@
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="script.js" charset="utf-8"></script> -->
+
   </head>
 
   <body>
 
     <header>
+      <button class="themeToggle">Toggle Theme</button>
       <h1>Ben Lander</h1>
       <h2>Full-Stack Web Developer</h2>
       <div class="cta-icons">
@@ -271,5 +276,28 @@
       <p class="copyright-tag"><i class="devicon-devicon-plain"></i> <a href="http://konpa.github.io/devicon/">Devicon</a> Copyright &copy; 2015 <a href="https://github.com/konpa">Konpa</a></p>
     </footer>
   </body>
+
+  <script>
+  const root = document.documentElement
+  let lightMode = false
+    $('.themeToggle').on('click', () => {
+      if(!lightMode) {
+        lightMode = true
+        root.style.setProperty('--background-color', '#ccc')
+        root.style.setProperty('--primary-color', 'orange')
+        root.style.setProperty('--primary-color-hover', 'orange')
+        root.style.setProperty('--text-color', 'black')
+      }
+      else if(lightMode) {
+        lightMode = false
+        root.style.setProperty('--background-color', 'hsl(227, 26%, 11%)')
+        root.style.setProperty('--primary-color', 'hsl(168, 99%, 58%)')
+        root.style.setProperty('--primary-color-hover', 'hsl(168, 99%, 33%)')
+        root.style.setProperty('--text-color', '#ccc')
+      }
+    })
+
+
+  </script>
 
 </html>
