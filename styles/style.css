@@ -1,13 +1,13 @@
-:root {
-  --background-color: hsl(227, 26%, 11%);
-  --primary-color: hsl(168,99%,58%);
-  --primary-color-hover: hsl(168,99%,33%);
-  --text-color: #ccc;
-}
+@import url('./dark.css') screen and (prefers-color-scheme: dark);
+@import url('./light.css') screen and (prefers-color-scheme: light);
 
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+:root {
+  color-scheme: light dark;
 }
 
 a {
