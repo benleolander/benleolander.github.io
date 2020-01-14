@@ -1,4 +1,6 @@
+/* Import default styles at the top */
 @import url('./dark.css');
+/* Import alternate styles second, so they overwrite the defaults */
 @import url('./light.css');
 
 * {
