@@ -2,15 +2,12 @@
 @import url('./themeDefaultColors.css');
 /* Import alternate styles after, to overwrite the defaults if the condition is satisfied */
 @import url('./themeAlternateColors.css');
+
 @import url('./switch.css');
 
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-}
-
-:root {
-  color-scheme: light dark;
 }
 
 a {
