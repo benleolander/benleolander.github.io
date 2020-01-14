@@ -1,7 +1,7 @@
 /* Import default styles at the top */
-@import url('./dark.css');
-/* Import alternate styles second, so they overwrite the defaults */
-@import url('./light.css');
+@import url('./themeDefaultColors.css');
+/* Import alternate styles after, to overwrite the defaults if the condition is satisfied */
+@import url('./themeAlternateColors.css');
 
 * {
   box-sizing: border-box;
