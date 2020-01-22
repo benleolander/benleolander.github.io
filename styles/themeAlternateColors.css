@@ -1,6 +1,6 @@
 [theme="alternate"] {
-  --background-color: rgb(245,245,245);
-  --primary-color: orange;
-  --primary-color-hover: red;
-  --text-color: black;
+  --background-color: hsl(210,16.7%,97.6%);
+  --primary-color: hsl(26,82%,56.5%);
+  --primary-color-hover: hsl(26,64.2%,29.6%);
+  --text-color: hsl(0,0%,15%);
 }
