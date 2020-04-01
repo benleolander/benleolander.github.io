@@ -25,6 +25,7 @@ body {
   color: var(--primary-color);
   text-align: center;
   line-height: 1.4;
+  transition: all 0.5s linear;
 }
 
 body a {
