@@ -2,6 +2,7 @@
   display: inline-block;
   height: 34px;
   position: relative;
+  border-radius: 34px;
   width: 60px;
 }
 
@@ -15,6 +16,7 @@
 /* The slider */
 .slider {
   background-color: #ccc;
+  border-radius: 34px;
   bottom: 0;
   cursor: pointer;
   left: 0;
@@ -27,6 +29,7 @@
 
 .slider:before {
   background-color: white;
+  border-radius: 50%;
   bottom: 4px;
   content: "";
   height: 26px;
@@ -37,13 +40,13 @@
   width: 26px;
 }
 
-/* input:checked + .slider {
+input:checked + .slider {
   background-color: #2196F3;
 }
 
 input:focus + .slider {
   box-shadow: 0 0 1px #2196F3;
-} */
+}
 
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
@@ -51,11 +54,4 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
-.slider .round {
-  border-radius: 34px;
-}
 
-.slider .round:before {
-  border-radius: 50%;
-}
