@@ -57,6 +57,10 @@ header {
   margin: 1rem;
 }
 
+.light-mode-glyph {
+  background-image: url(../../assets/icons/light-mode-glyph.svg);
+}
+
 footer {
   margin-top: 3rem;
 }
@@ -67,7 +71,7 @@ footer a {
 }
 
 footer a:hover {
-color: var(--primary-color-hover);
+  color: var(--primary-color-hover);
 }
 
 .cta-icons {
