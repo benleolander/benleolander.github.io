@@ -34,7 +34,7 @@ body a {
 }
 
 body a:hover {
-color: var(--primary-color-hover);
+  color: var(--primary-color-hover);
 }
 
 header {
@@ -43,6 +43,18 @@ header {
   flex-direction: column;
   justify-content: center;
   font-size: 1.1rem;
+}
+
+.switch-container {
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+}
+
+.switch-container img {
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+  margin: 1rem;
 }
 
 footer {
