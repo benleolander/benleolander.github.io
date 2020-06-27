@@ -15,7 +15,7 @@
 
 /* The slider */
 .slider {
-  background-color: #ccc;
+  background-color: var(--primary-color);
   border-radius: 34px;
   bottom: 0;
   cursor: pointer;
