@@ -55,6 +55,10 @@ header {
   fill: var(--primary-color);
 }
 
+#dark-mode-icon {
+  fill: var(--primary-color)
+}
+
 
 
 footer {
