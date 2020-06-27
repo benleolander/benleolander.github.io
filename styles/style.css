@@ -47,8 +47,9 @@ header {
 
 .switch-container {
   display: flex;
-  justify-items: flex-end;
+  justify-content: flex-end;
   align-items: center;
+  margin-right: 4rem;
 }
 
 #light-mode-icon {
@@ -245,6 +246,11 @@ img {
 
   main {
     width: 95vw;
+  }
+  
+  .switch-container {
+    justify-content: center;
+    margin: 0 auto;
   }
 
   .about-container {
