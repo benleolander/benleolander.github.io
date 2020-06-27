@@ -51,15 +51,11 @@ header {
   align-items: center;
 }
 
-.switch-container img {
-  max-width: 2.5rem;
-  max-height: 2.5rem;
-  margin: 1rem;
+#light-mode-icon {
+  fill: var(--primary-color);
 }
 
-.light-mode-glyph {
-  background-image: url(../../assets/icons/light-mode-glyph.svg);
-}
+
 
 footer {
   margin-top: 3rem;
