@@ -5,6 +5,7 @@ function toggleTheme() {
     document.documentElement.removeAttribute('theme')
 }
 
-const themeButton = document.querySelector('.themeToggle')
-
-themeButton.addEventListener('click', toggleTheme)
+window.addEventListener('load', () => {
+  const themeButton = document.querySelector('.themeToggle')
+  themeButton.addEventListener('click', toggleTheme)
+})
